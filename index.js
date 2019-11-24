@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'help') {
+  if (msg.content === 'bob') {
     msg.reply('https://docs.google.com/document/d/1fcc7j54zpbVQ9wVXdcTA7EL-03jbVltU-qP4l5FC7JQ/edit');
   } else if (msg.content === 'bob pay respects') {
     msg.reply('f');
