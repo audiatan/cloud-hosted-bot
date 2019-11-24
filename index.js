@@ -26,6 +26,8 @@ client.on('message', msg => {
     msg.reply('https://youtu.be/aALk6BJw8J4')
   }else if (msg.content === 'bob give us a fish fact') {
     msg.reply('one day fish will take over the world')
+  }else if (msg.content === 'bob i love you') {
+    msg.reply('duck you')
   }else if (msg.content === 'bob I love you') {
     msg.reply('duck you')
   }else if (msg.content === 'bob help') {
