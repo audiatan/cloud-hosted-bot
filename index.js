@@ -32,6 +32,12 @@ client.on('message', msg => {
     msg.reply('duck you')
   }else if (msg.content === 'bob help') {
     msg.reply('you get none')
+  }else if (msg.content === 'bob roast me') {
+    msg.reply('I cant your mother already did that')
+  }else if (msg.content === 'bob is alexa better than you') {
+    msg.reply('whos alexa')
+  }else if (msg.content === 'bob beatbox') {
+    msg.reply('https://youtu.be/4jxc_jyLbCM')
   }
 });
 
