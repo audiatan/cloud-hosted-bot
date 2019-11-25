@@ -38,6 +38,8 @@ client.on('message', msg => {
     msg.reply('whos alexa')
   }else if (msg.content === 'bob beatbox') {
     msg.reply('https://youtu.be/4jxc_jyLbCM')
+  }else if (msg.content === 'bob whos joe') {
+    msg.reply('JOE MAMA')
   }
 });
 
