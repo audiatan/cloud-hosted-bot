@@ -14,7 +14,7 @@ client.on('message', msg => {
     msg.reply('no')
   }else if (msg.content === 'del taco serves') {
     msg.reply('FR E SH A VOCA DO')
-  }else if (msg.content === 'how tall is audria') {
+  }else if (msg.content === 'bob how tall is audria') {
     msg.reply('taller than you')
   }else if (msg.content === 'bob whats 17-8') {
     msg.reply('5')
