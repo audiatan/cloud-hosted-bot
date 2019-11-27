@@ -12,7 +12,7 @@ client.on('message', msg => {
     msg.reply('f');
   } else if (msg.content === 'bob say hi') {
     msg.reply('no')
-  }else if (msg.content === 'del taco serves') {
+  }else if (msg.content === 'bob del taco serves') {
     msg.reply('FR E SH A VOCA DO')
   }else if (msg.content === 'bob how tall is audria') {
     msg.reply('taller than you')
