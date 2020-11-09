@@ -8,9 +8,9 @@ client.on('ready', () => {
 client.on('message', msg => {
   if (msg.content === 'bob') {
     msg.reply('\ \n bob pay respects\n bob say hi\n bob del taco serves\n bob how tall is audria\n' + 
-    'bob whats 17-8\n bob who made you\n this is so sad bob play despacito\n bob whats your favorite song\n' +
-    'bob whats your favorite song\n bob give us a fish fact\n bob I love you\n bob help\n bob roast me\n' +
-    'bob is alexa better than you\n bob beatbox\n bob whos joe');
+    ' bob whats 17-8\n bob who made you\n this is so sad bob play despacito\n bob whats your favorite song\n' +
+    ' bob whats your favorite song\n bob give us a fish fact\n bob I love you\n bob help\n bob roast me\n' +
+    ' bob is alexa better than you\n bob beatbox\n bob whos joe');
   } else if (msg.content === 'bob pay respects') {
     msg.reply('f');
   } else if (msg.content === 'bob say hi') {
