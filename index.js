@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'bob') {
-    msg.reply('bob' + 'bob pay respects' + 'bob say hi' + 'bob del taco serves' + 'bob how tall is audria' + 
+    msg.reply('bob \ bob pay respects' + 'bob say hi' + 'bob del taco serves' + 'bob how tall is audria' + 
     'bob whats 17-8' + 'bob who made you' + 'this is so sad bob play despacito' + 'bob whats your favorite song'+
     'bob whats your favorite song' + 'bob give us a fish fact' +'bob I love you' + 'bob help' +'bob roast me' +
     'bob is alexa better than you' + 'bob beatbox' + 'bob whos joe');
