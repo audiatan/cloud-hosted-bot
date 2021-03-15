@@ -26,7 +26,7 @@ client.on('message', msg => {
   }else if (msg.content === 'this is so sad bob play despacito') {
     msg.reply('https://youtu.be/kJQP7kiw5Fk')
   }else if (msg.content === 'bob whats your favorite song') {
-    msg.reply('https://youtu.be/aALk6BJw8J4')
+    msg.reply('https://youtu.be/n3LzrL5HlP8')
   }else if (msg.content === 'bob give us a fish fact') {
     msg.reply('one day fish will take over the world')
   }else if (msg.content === 'bob i love you') {
